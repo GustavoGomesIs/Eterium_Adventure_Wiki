@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
 
 *{
     margin: 0px;
@@ -20,7 +21,7 @@ body{
     background-color: black;
 }
 
-div.logo {
+.logo {
     background-image: url(imagens/fundo-logo.png);
     background-size: 100vw;
     height: 98px;
@@ -34,4 +35,47 @@ div.logo {
 .logo-letra{
     margin-left: 40vw;
     height: 8vw;
+}
+
+.lateral_dis_ip{
+    display: flex;
+}
+
+.img-discord{
+    margin: 0px 0px 0px -3px;
+}
+
+.discord{
+    background-color: rgb(69, 69, 236);
+    border-radius: 6px;
+    margin: 10px 0px 0px 0px;
+    padding: 9px 13px 9px 13px;
+    position: relative;
+    left: 66vw;
+    width: 36px;
+    height: 36px;
+}
+
+.discord:hover{
+    background-color: rgb(115, 115, 250);
+}
+
+.ipp{
+    background-color: rgb(255, 174, 0);
+    border-radius: 7px;
+    color: rgb(155, 88, 0);
+    font-family: kanit;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    left: 66vw;
+    width: 350px;
+    height: 34px;
+}
+
+.ipp:hover{
+    background-color: rgb(255, 215, 85);
 }
