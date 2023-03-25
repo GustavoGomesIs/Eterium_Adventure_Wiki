@@ -23,8 +23,8 @@ body{
 
 .logo {
     background-image: url(imagens/fundo-logo.png);
-    background-size: 100vw;
-    height: 98px;
+    background-size: 101vw;
+    height: 105px;
 }
 
 #l1{
@@ -38,6 +38,8 @@ body{
 }
 
 .lateral_dis_ip{
+    background-image: linear-gradient(to bottom, rgb(61, 0, 141), rgb(19, 0, 37));
+    box-shadow: rgb(19, 0, 37) 0px 1px 50px 10px;
     display: flex;
 }
 
@@ -52,13 +54,14 @@ body{
     padding: 9px 13px 9px 13px;
     position: relative;
     left: 66vw;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
 }
 
 .discord:hover{
     background-color: rgb(115, 115, 250);
 }
+
 
 .ipp{
     background-color: rgb(255, 174, 0);
@@ -69,11 +72,11 @@ body{
     font-weight: bold;
     text-align: center;
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 6px 10px 10px 10px;
     position: relative;
     left: 66vw;
     width: 350px;
-    height: 34px;
+    height: 32px;
 }
 
 .ipp:hover{
